@@ -44,7 +44,7 @@ metadata:
     kubernetes.io/ingress.class: addon-http-application-routing
 spec:
   rules:
-  - host: node-api.<CLUSTER_SPECIFIC_DNS_ZONE>
+  - host: node-api.944cb09e5007480da487.eastus.aksapp.io
     http:
       paths:
       - backend:
